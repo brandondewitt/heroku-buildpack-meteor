@@ -8,5 +8,5 @@ addons:
   - mongohq
 config_vars:
 default_process_types:
-  web: MONGO_URL=\$MONGOLAB_URI vendor/node/bin/node deploy/bundle/main.js
+  web: MONGO_URL=\$MONGOHQ_URI vendor/node/bin/node deploy/bundle/main.js
 YAML
